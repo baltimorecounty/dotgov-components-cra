@@ -5,7 +5,7 @@ import { Icon } from "./";
 const IconButton = props => {
   const { icon, text, link } = props;
   return (
-    <a href={link}>
+    <a className="dg_icon-button" href={link}>
       {icon && <Icon type={icon} />} {text}
     </a>
   );
