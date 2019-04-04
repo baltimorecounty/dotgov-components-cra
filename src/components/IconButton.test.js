@@ -10,3 +10,16 @@ it("renders without crashing", () => {
   );
   ReactDOM.unmountComponentAtNode(div);
 });
+
+it("renders without crashing with an Icon", () => {
+  const div = document.createElement("div");
+  ReactDOM.render(
+    <IconButton
+      link="http://www.pawpatrol.com/"
+      icon="fa-hamburger"
+      text="Meet the Paw Patrol"
+    />,
+    div
+  );
+  ReactDOM.unmountComponentAtNode(div);
+});
