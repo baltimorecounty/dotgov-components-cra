@@ -1,9 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Icon } from "./";
 
 const IconButton = props => {
   const { icon, text, link } = props;
-  return <a href={link}>{text}</a>;
+  return (
+    <a href={link}>
+      {icon && <Icon type={icon} />} {text}
+    </a>
+  );
 };
 
 IconButton.propTypes = {
