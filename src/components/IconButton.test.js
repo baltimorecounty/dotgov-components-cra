@@ -16,7 +16,7 @@ it("renders without crashing with an Icon", () => {
   ReactDOM.render(
     <IconButton
       link="http://www.pawpatrol.com/"
-      icon="fa-hamburger"
+      icon="fa-paw"
       text="Meet the Paw Patrol"
     />,
     div
