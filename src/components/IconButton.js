@@ -6,7 +6,7 @@ const IconButton = props => {
   const { icon, text, link } = props;
   return (
     <a className="dg_icon-button" href={link}>
-      {icon && <Icon type={icon} />} {text}
+      {icon && <Icon icon={icon} />} {text}
     </a>
   );
 };
