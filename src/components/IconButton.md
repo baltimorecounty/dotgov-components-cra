@@ -6,6 +6,7 @@
 - Buttons should be laid out in an even grid without orphans when possible.
 
 ## Functionality and Behavior
+
 - Buttons should always stretch horizontally to fill the available space in the content area.
 - By default, buttons are 3 per row (referred to as “3-up”). However, this should be overridden via a configuration option so that a designer can determine the best use for a given space. E.g., home page buttons are 5-up.
 - At their default height, buttons should support 1 or 2 rows of label text.
@@ -28,9 +29,9 @@ Regardless of how many items display per row at desktop size, the following brea
 
 ```jsx
 <IconButton
-	link="http://www.pawpatrol.com/"
-	icon="fa-paw"
-	text="Meet the Paw Patrol"
+  link="http://www.pawpatrol.com/"
+  icon="fa-paw"
+  text="Meet the Paw Patrol"
 />
 ```
 
@@ -38,6 +39,6 @@ Regardless of how many items display per row at desktop size, the following brea
 
 ```html
 <a href="http://www.pawpatrol.com/" class="dg_icon-button">
-	<i class="far fa-paw"></i> Meet the Paw Patrol
+  <i class="far fa-paw"></i> Meet the Paw Patrol
 </a>
 ```
