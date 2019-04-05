@@ -30,7 +30,7 @@ Regardless of how many items display per row at desktop size, the following brea
 ```jsx
 <IconButton
   link="http://www.pawpatrol.com/"
-  icon="fa-paw"
+  icon="paw"
   text="Meet the Paw Patrol"
 />
 ```
