@@ -1,1 +1,3 @@
-placeholder for icon readme
+```jsx
+<Icon icon="hamburger" />
+```
