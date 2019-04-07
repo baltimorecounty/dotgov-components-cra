@@ -19,13 +19,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && npm run build-style-guide",
+    "build": "npm run build-style-guide",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "style-guide": "npx styleguidist server",
     "build-style-guide": "npx styleguidist build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d styleguide"
   },
   "eslintConfig": {
     "extends": "react-app"
