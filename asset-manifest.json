@@ -1,14 +1,6 @@
 {
-  "main.css": "/dotgov-components/static/css/main.e808a114.chunk.css",
-  "main.js": "/dotgov-components/static/js/main.75b4c52b.chunk.js",
-  "main.js.map": "/dotgov-components/static/js/main.75b4c52b.chunk.js.map",
-  "runtime~main.js": "/dotgov-components/static/js/runtime~main.58d245e0.js",
-  "runtime~main.js.map": "/dotgov-components/static/js/runtime~main.58d245e0.js.map",
-  "static/js/2.6efc73d3.chunk.js": "/dotgov-components/static/js/2.6efc73d3.chunk.js",
-  "static/js/2.6efc73d3.chunk.js.map": "/dotgov-components/static/js/2.6efc73d3.chunk.js.map",
-  "index.html": "/dotgov-components/index.html",
-  "precache-manifest.0bffec16cb7fdfd66cca3f3b211fb94f.js": "/dotgov-components/precache-manifest.0bffec16cb7fdfd66cca3f3b211fb94f.js",
-  "service-worker.js": "/dotgov-components/service-worker.js",
-  "static/css/main.e808a114.chunk.css.map": "/dotgov-components/static/css/main.e808a114.chunk.css.map",
-  "static/media/logo.svg": "/dotgov-components/static/media/logo.ee7cd8ed.svg"
+  "build/0.bf564ac8.js": "/build/0.bf564ac8.js",
+  "main.js": "/build/main.074ae190.js",
+  "runtime~main.js": "/build/bundle.7b491809.js",
+  "index.html": "/index.html"
 }
