@@ -2,6 +2,7 @@
   "name": "dotgov-components",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://baltimorecounty.github.io/dotgov-components",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.17",
     "@fortawesome/free-solid-svg-icons": "^5.8.1",
@@ -18,11 +19,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run build-style-guide",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "style-guide": "npx styleguidist server",
-    "build-style-guide": "npx styleguidist build"
+    "build-style-guide": "npx styleguidist build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d styleguide"
   },
   "eslintConfig": {
     "extends": "react-app"
