@@ -1,6 +1,15 @@
 /** Variables */
 @import "./styles/variables/colors";
 @import "./styles/variables/fonts";
+@import "./styles/variables/spacing"; /** contains padding and margin variables */
+
+/** Base */
+@import "./styles/partials/base/reset";
+@import "./styles/partials/base/typography";
 
 /** partials */
+
+/** components */
+@import "./styles/partials/components/form";
+@import "./styles/partials/components/input";
 @import "./styles/partials/components/icon-button";

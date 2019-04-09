@@ -1,0 +1,11 @@
+.form-field {
+  input,
+  label {
+    display: block;
+  }
+
+  label {
+    font-weight: $font-bold;
+    margin-bottom: $default-margin;
+  }
+}
