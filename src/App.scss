@@ -3,6 +3,9 @@
 @import "./styles/variables/fonts";
 @import "./styles/variables/spacing"; /** contains padding and margin variables */
 
+/** Mixins */
+@import "./styles/mixins/placeholder";
+
 /** Base */
 @import "./styles/partials/base/reset";
 @import "./styles/partials/base/typography";
@@ -13,3 +16,7 @@
 @import "./styles/partials/components/form";
 @import "./styles/partials/components/input";
 @import "./styles/partials/components/icon-button";
+
+* {
+  box-sizing: border-box;
+}
