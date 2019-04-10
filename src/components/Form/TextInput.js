@@ -18,6 +18,8 @@ TextInput.propTypes = {
   id: PropTypes.string.isRequired,
   /** A label to describe the associated text input */
   label: PropTypes.string.isRequired,
+  /** Default input placeholder attribute  */
+  placeholder: PropTypes.string,
   /** The type of text input you want to use, possible values are 'text', 'email', 'url' */
   type: PropTypes.string
 };
