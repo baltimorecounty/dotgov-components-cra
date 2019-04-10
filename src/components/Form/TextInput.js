@@ -1,28 +1,26 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
-import { Icon } from "../";
+import FormField from "./FormField";
 
 const TextInput = props => {
-  const [error, setErrors] = useState("");
-  const { id, hint, label } = props;
+  const [error, setError] = useState("");
+  const { id, hint, label, validate, ...otherProps } = props;
 
-  useEffect(() => {
-    setErrors("Enter your full name");
-  });
+  const handleKeyup = keyUpEvent => {
+    const { value } = keyUpEvent.currentTarget;
+    const error = validate(value);
+    setError(error);
+  };
 
   return (
-    <div className="form-field">
-      <label for={id} className="dg_label">
-        <span className="dg_label-text">{label}</span>
-        {hint && <span className="dg_label-hint">{hint}</span>}
-        {error && (
-          <span className="dg_label-validation">
-            <Icon icon="exclamation-triangle" /> {error}
-          </span>
-        )}
-      </label>
-      <input id={id} className="form-field_input--text" {...props} />
-    </div>
+    <FormField id={id} hint={hint} label={label} error={error}>
+      <input
+        id={id}
+        className="form-field_input--text"
+        {...otherProps}
+        onKeyUp={handleKeyup}
+      />
+    </FormField>
   );
 };
 
@@ -36,7 +34,9 @@ TextInput.propTypes = {
   /** Default input placeholder attribute  */
   placeholder: PropTypes.string,
   /** The type of text input you want to use, possible values are 'text', 'email', 'url' */
-  type: PropTypes.string
+  type: PropTypes.string,
+  /** Function that will validate the field */
+  validate: PropTypes.func
 };
 
 TextInput.defaultProps = {
