@@ -3,6 +3,8 @@
   font-size: 16px;
 }
 
+input,
+textarea,
 p {
   font-family: $default-body-font;
 }
@@ -12,4 +14,12 @@ h2,
 h3,
 label {
   font-family: $default-heading-font;
+}
+
+label {
+  font-weight: 600; //TODO: move to variable
+}
+
+@include placeholder {
+  font-family: $default-body-font;
 }
