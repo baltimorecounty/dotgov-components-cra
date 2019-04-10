@@ -12,7 +12,11 @@ const TextArea = props => {
 };
 
 TextArea.propTypes = {
-  /** A label to describe the associated the textarea */
+  /** A unique identifier used to associate the textarea with the label */
+  id: PropTypes.string.isRequired,
+  /** Only when absolutely necessary, adds text to help the user fill out a textarea */
+  hint: PropTypes.string,
+  /** A label to describe the associated textarea */
   label: PropTypes.string.isRequired
 };
 
