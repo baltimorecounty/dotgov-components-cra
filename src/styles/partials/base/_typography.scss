@@ -12,13 +12,12 @@ p {
 h1,
 h2,
 h3,
-label,
-button,
+.dg_label,
 .dg_icon-button {
   font-family: $default-heading-font;
 }
 
-label {
+.dg_label {
   font-weight: 600; //TODO: move to variable
 }
 

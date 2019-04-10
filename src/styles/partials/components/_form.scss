@@ -1,6 +1,7 @@
 .form-field {
   input,
-  label {
+  label,
+  label > span {
     display: block;
   }
 
