@@ -1,5 +1,7 @@
-$default-heading-font: Arial, sans-serif;
-$default-body-font: "Montserrat", sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat:300,400,600,700");
+
+$default-heading-font: "Montserrat", sans-serif;
+$default-body-font: "Crimson Text", serif;
 
 /** Font Weights */
 $font-light: 300;
