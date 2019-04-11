@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Icon } from "../";
+import { Icon } from "..";
 
 const FormField = props => {
   const { id, label, hint, error } = props;
