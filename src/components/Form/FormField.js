@@ -5,7 +5,7 @@ import { Icon } from "..";
 const FormField = props => {
   const { id, label, hint, error } = props;
   return (
-    <div class="dg_form-field">
+    <div className="dg_form-field">
       <label htmlFor={id} className="dg_label">
         <span className="dg_label-text">{label}</span>
         {hint && <span className="dg_label-hint">{hint}</span>}
