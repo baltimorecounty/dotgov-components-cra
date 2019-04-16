@@ -1,0 +1,18 @@
+.dg_breadcrumbs {
+  .dg_breadcrumb {
+    display: inline-block;
+    padding: $default-padding;
+
+    a,
+    span {
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    a:after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f007";
+    }
+  }
+}

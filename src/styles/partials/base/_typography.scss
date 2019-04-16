@@ -13,12 +13,22 @@ h1,
 h2,
 h3,
 .dg_label,
-.dg_icon-button {
+.dg_icon-button,
+.dg_breadcrumbs {
   font-family: $default-heading-font;
 }
 
-.dg_label {
+.dg_label,
+.dg_breadcrumbs {
   font-weight: 600; //TODO: move to variable
+}
+
+a {
+  color: $old-bay-blue;
+
+  &:hover {
+    color: $old-bay-blue-light;
+  }
 }
 
 @include placeholder {
