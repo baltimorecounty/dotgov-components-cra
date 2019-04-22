@@ -1,6 +1,6 @@
 {
   "name": "@baltimorecounty/dotgov-components",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "homepage": "https://baltimorecounty.github.io/dotgov-components",
   "repository": {
     "type": "git",
@@ -46,6 +46,7 @@
   "bugs": {
     "url": "https://github.com/baltimorecounty/dotgov-components/issues"
   },
+  "main": "index.js",
   "author": "",
   "license": "ISC"
 }
