@@ -1,10 +1,10 @@
 {
-  "name": "dotgov-components",
+  "name": "@baltimorecounty/dotgov-components",
   "version": "0.1.0",
   "homepage": "https://baltimorecounty.github.io/dotgov-components",
   "repository": {
     "type": "git",
-    "url": "https://github.com/baltimorecounty/dotgov-components.git"
+    "url": "git+https://github.com/baltimorecounty/dotgov-components.git"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.17",
@@ -41,5 +41,11 @@
   ],
   "devDependencies": {
     "react-styleguidist": "^9.0.5"
-  }
+  },
+  "description": "UI design system for Baltimore County's primary [website](https://www.baltimorecountymd.gov).",
+  "bugs": {
+    "url": "https://github.com/baltimorecounty/dotgov-components/issues"
+  },
+  "author": "",
+  "license": "ISC"
 }
