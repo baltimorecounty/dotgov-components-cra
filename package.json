@@ -1,6 +1,6 @@
 {
   "name": "@baltimorecounty/dotgov-components",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "homepage": "https://baltimorecounty.github.io/dotgov-components",
   "repository": {
     "type": "git",
@@ -13,6 +13,7 @@
     "@fortawesome/pro-regular-svg-icons": "^5.8.1",
     "@fortawesome/pro-solid-svg-icons": "^5.8.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "babel-loader": "^8.0.5",
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",
