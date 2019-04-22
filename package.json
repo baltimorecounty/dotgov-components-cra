@@ -1,7 +1,6 @@
 {
   "name": "dotgov-components",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://baltimorecounty.github.io/dotgov-components",
   "repository": {
     "type": "git",
